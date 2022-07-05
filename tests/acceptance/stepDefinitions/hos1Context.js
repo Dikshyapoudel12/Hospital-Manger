@@ -20,13 +20,13 @@ Given('a user has navigated to the homepage', async function () {
    // assert that it's visible
    await expect(locator).toBeVisible()
 })
- When('the admin click {string} using the webUI', function (string) {
+//  When('the admin click {string} using the webUI', function (string) {
       
-    page.click(addPatient);
- });
-Then('{string} should be displayed on the  webUI', function (string) {
-           // Write code here that turns the phrase above into concrete actions
-     expect(form).toBe(bioDataForm);
-});
+//     page.click(addPatient);
+//  });
+// Then('{string} should be displayed on the  webUI', function (string) {
+//            // Write code here that turns the phrase above into concrete actions
+//      expect(form).toBe(bioDataForm);
+// });
 
 
